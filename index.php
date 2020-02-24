@@ -1,9 +1,7 @@
 <?php 
     //Incluyendo el Header
     include_once 'include/templates/header.php';
-
 ?>
-
 <!--Integrantes-->
 <?php
     try {

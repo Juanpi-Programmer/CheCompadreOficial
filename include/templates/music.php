@@ -13,7 +13,7 @@
         <div class="reproduccion">
             <a href="#reproducir" id="reprodCulturaPresente" class="reprodCultura reprod"><i class="fa fa-play-circle" aria-hidden="true"></i></a>
             <a href="#exit" id="exDisc" class="reprodCultura reprod"><i class="far fa-times-circle"></i></a>
-            <a href="#descargar" class="reprodCultura reprod"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
+            <a href="img/cultura_presente.jpg" target="_blank" class="reprodCultura reprod"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i></a>
         </div>
 
         <iframe class="culturaPresente" src="https://open.spotify.com/embed/artist/4ck2apvTEfQ4ps1vKHCLBH" width="250" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Che Compadre Oficial</title>
 </head>
-<body>
+<body id="body-class">
     <header class="header-class" id="start">
         <div class="nav-principal fixed">
             <div class="logo-img wow animated jackInTheBox">
