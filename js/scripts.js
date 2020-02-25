@@ -70,7 +70,7 @@ function scrollNav() {
     window.addEventListener("scroll", movePage);
 
     function movePage() {
-        if (this.pageYOffset > 50) {
+        if (this.pageYOffset > 100) {
             if (animate) {
                 nav.classList.add('alternativo-nav');
                 animate = false;
