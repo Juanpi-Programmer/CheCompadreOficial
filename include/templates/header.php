@@ -6,8 +6,8 @@
     <link rel="icon" href="img/iconChe.jpg" type="image/jpg">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/5db1674db6.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/lightbox.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Che Compadre Oficial</title>

@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -79,6 +80,7 @@ h4 {
         background-color: #fdff71;
         text-align: left;
     }
+
     h4 {
         font-size: 1.9rem;
         text-align: center;
@@ -172,16 +174,19 @@ h4 {
 @media (min-width: 768px) {
     .nav-principal {
         display: flex;
+        justify-content: space-between;
         text-align: center;
         background-color: var(--colorNav);
         transition: all .8s ease-in-out;
     }
+
     .nav {
         padding: 2rem 0 1rem 0;
         font-size: 1.5rem;
         width: 70%;
         transition: all .5s ease-in;
     }
+
     .navegacion a {
         display: inline-block;
         text-decoration: none;
@@ -192,47 +197,58 @@ h4 {
         font-size: 1.5rem;
         -webkit-transition: all .3s ease;
     }
+
     .navegacion a:hover {
         color: var(--colorTextNavHover);
     }
+
     .social-media {
         width: 15%;
         padding: 2rem 0 1rem 0;
         font-size: 3.3rem;
         transition: all .3s ease-in;
     }
+
     .social-media i {
         color: var(--colorTextNav);
         margin-left: 1rem;
         -webkit-transition: all .2s ease-in-out;
         font-size: 2.5rem;
     }
+
     .social-media i:hover {
         -webkit-transform: scale(1.1);
     }
+
     .logo-img {
         width: 15%;
         transition: all .3s ease-in;
     }
+
     .logo-img img {
         width: 25rem;
     }
+
     .alternativo-nav {
-        background-color: rgba(80, 92, 71, 0.418) !important;
+        background-color: rgba(255, 168, 97, 0.418) !important;
     }
+
     .alternativo-nav .navegacion a {
         margin-left: 1rem;
     }
+
     .alternativo-nav .nav {
         padding: .5rem;
         font-size: 1.2rem;
         margin: 0 auto;
         transition: all .4s ease-out;
     }
+
     .alternativo-nav .social-media {
         padding: 0;
         transition: all .3s ease-out;
     }
+
     .alternativo-nav .logo-img {
         width: 10%;
         transition: all .3s ease-out;
@@ -252,75 +268,51 @@ h4 {
 
 .musicos {
     padding: 2rem;
-    display: none;
+}
+
+.datosMusicos {
+    text-align: center;
+    color: black;
+}
+
+.datosMusicos h5 {
+    font-size: 1.2rem;
+}
+
+.datosMusicos h5 span {
+    font-weight: lighter;
 }
 
 @media (min-width: 768px) {
-    .musicos {
-        display: block;
+    .cheMusix h3 {
+        text-transform: uppercase;
+        font-family: var(--fontNav);
+        font-weight: 400;
+        font-size: 2rem;
     }
-}
 
-.list-music {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 3rem;
-    grid-column-gap: 2rem;
-}
-
-.cheMusix {
-    width: 100%;
-    margin-bottom: 2rem;
-    min-height: 30rem;
-    text-align: center;
-    background-color: #e1e1e1;
-    transition: all .5s ease-in-out;
-}
-
-.cheMusix img {
-    width: 100%;
-}
-
-.cheMusix h3 {
-    text-transform: uppercase;
-    font-family: var(--fontNav);
-    font-weight: 400;
-    font-size: 2rem;
-}
-
-.cheMusix:hover {
-    -webkit-transform: scale(1.1);
-    border: 1px solid #d2ff71;
-    -webkit-box-shadow: -2px 2px 46px 0px rgba(0, 0, 0, 0.28);
-    -moz-box-shadow: -2px 2px 46px 0px rgba(0, 0, 0, 0.28);
-    box-shadow: -2px 2px 46px 0px rgba(0, 0, 0, 0.28);
+    .datosMusicos h5 {
+        font-size: 1.8rem;
+    }
 }
 
 
 /*BIO*/
 
-.cont-img,
-.cont-imgDisc {
-    background-position: center center;
+.cont-img {
+    background-image: url(../img/imgBio.jpg);
+    background-position: center left;
     background-size: cover;
     background-attachment: fixed;
-    height: 40rem;
+    min-height: 40vh;
     width: 100%;
-}
-
-.cont-img {
-    background-image: url(../img/imgBioMini.jpg);
-    max-width: 100%;
-}
-
-.cont-imgDisc {
-    background-image: url(../img/imgMusic1.jpg);
 }
 
 @media (min-width: 768px) {
     .cont-img {
         background-position: center center;
         background-image: url(../img/imgBio.jpg);
+        min-height: 60vh;
     }
 }
 
@@ -364,7 +356,7 @@ h4 {
 }
 
 .music-disc {
-    width: 75%;
+    width: 50%;
     margin: 2rem auto;
     -webkit-box-shadow: -2px 2px 46px 0px rgba(0, 0, 0, 0.28);
     -moz-box-shadow: -2px 2px 46px 0px rgba(0, 0, 0, 0.28);
@@ -373,39 +365,34 @@ h4 {
 
 @media (min-width: 768px) {
     .music-disc {
-        width: 30%;
+        width: 20%;
         margin: unset;
     }
 }
 
-.reproduccion,
-.descripcionDisco {
-    margin-left: 1rem;
-}
-
 .reproduccion {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.reproduccion a {}
+.reproduccion a i {
+    font-size: 2.3rem !important;
+}
 
-@media (min-width: 768px) {
-    .reproduccion {
-        display: block;
-    }
+.reproduccion a {
+    margin-left: 1rem;
 }
 
 .music-disc h3 {
     font-size: 2rem;
-    padding: 0 0 1rem 0;
     text-align: center;
     font-family: var(--fontTitle);
+    padding: 0;
+    margin: 0.4rem auto;
     transition: border-bottom .5s ease-in;
 }
 
 .music-disc h3:hover {
-    color: #2c2c2c;
     cursor: pointer;
 }
 
@@ -438,22 +425,16 @@ h4 {
     padding: 0;
 }
 
-.textDisc {
-    width: 13%;
-    flex: .2;
-    font-size: 2rem;
-    text-align: center;
-    font-family: var(--fontNav)
-}
-
 @media (min-width: 768px) {
     .tapas-disc {
         display: block;
     }
+
     .tapas-disc .img-mini {
         width: 33.3%;
         margin: 0 auto;
     }
+
     .textDisc {
         width: 33.3%;
         text-align: center;
@@ -461,30 +442,42 @@ h4 {
     }
 }
 
-
-/*GALERIA- PICTURES*/
-
-.imgGale {
-    width: 100%;
-    height: auto;
-    text-align: center;
-}
-
-.imgGale a {
-    display: inline-block;
-    width: 25%;
-    margin: 0 auto;
-    margin-top: 2rem;
+.redes-disco {
+    display: none;
 }
 
 @media (min-width: 768px) {
-    .imgGale {
-        display: inline-block;
+    .redes-disco {
+        display: block;
+        text-align: center;
     }
-    .imgGale a {
+
+    .redes-disco h5 {
+        font-size: 2.9rem;
+        color: rgba(128, 128, 128, 0.733);
+    }
+
+    #soundCloud {
         width: 15%;
     }
+
+    #youtube {
+        width: 20%;
+    }
 }
+
+.reproducIframe {
+    display: flex;
+    justify-content: center;
+}
+
+.music iframe {
+    width: 50%;
+    height: 20rem;
+}
+
+/*GALERIA- PICTURES*/
+
 
 
 /** VIDEOS **/

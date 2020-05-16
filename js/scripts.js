@@ -3,8 +3,10 @@ $('#btn-ex').css("display", "none");
 
 //iframe spotify
 $('.culturaPresente').hide();
+$('.fuerteImpacto').hide();
 //boton de exit discos
 $('#exDisc').hide();
+$('#exDiscFuerte').hide();
 
 eventListener();
 /*Llamados */
@@ -13,7 +15,10 @@ function eventListener() {
     const btn_exit = document.querySelector('#btn-ex').addEventListener('click', quitarBoton);
 
     const reprod_cult = document.querySelector('#reprodCulturaPresente').addEventListener('click', reproducirCult);
-    const cerrar_discos = document.querySelector('#exDisc').addEventListener('click', cerrarDiscos);
+    const reprod_fuert = document.querySelector('#reprodFuerteImpacto').addEventListener('click', reproducirFuerteImpacto);
+    const cerrar_cult = document.querySelector('#exDisc').addEventListener('click', cerrarDiscos);
+    const cerrar_fuert = document.querySelector('#exDiscFuerte').addEventListener('click', cerrarDiscosFuerteImpacto);
+    
     const cult_presente = document.querySelector('.cult_present').addEventListener('click', cambiarFondo);
 
 
@@ -43,11 +48,21 @@ function reproducirCult() {
     $('.culturaPresente').fadeIn();
     $('#exDisc').show();
 }
+function reproducirFuerteImpacto() {
+    $('#reprodFuerteImpacto').hide();
+    $('.fuerteImpacto').fadeIn();
+    $('#exDiscFuerte').show();
+}
 //Cerrar discos
 function cerrarDiscos() {
     $('#reprodCulturaPresente').show();
     $('.culturaPresente').fadeOut();
     $('#exDisc').hide();
+}
+function cerrarDiscosFuerteImpacto() {
+    $('#reprodFuerteImpacto').show();
+    $('.fuerteImpacto').fadeOut();
+    $('#exDiscFuerte').hide();
 }
 
 //Animacion WOW
@@ -88,3 +103,4 @@ function cambiarFondo() {
         "background-color": 'rgb(238, 255, 83)'
     });
 }
+
