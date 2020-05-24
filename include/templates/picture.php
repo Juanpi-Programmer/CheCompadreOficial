@@ -1,4 +1,4 @@
-<section class="cuerpo images">
+<section class="cuerpo images" id="images">
     <div class="sp-slideshow">
 			
         <input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />

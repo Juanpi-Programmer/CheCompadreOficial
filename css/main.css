@@ -44,7 +44,9 @@ img {
 }
 
 body {
-    background-color: rgb(249, 255, 198);
+    /* background-image: url(../img/fondoFuerte.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
     transition: all .9s ease-in-out;
 }
 
@@ -230,7 +232,7 @@ h4 {
     }
 
     .alternativo-nav {
-        background-color: rgba(255, 168, 97, 0.418) !important;
+        background-color: rgba(187, 99, 27, 0.418) !important;
     }
 
     .alternativo-nav .navegacion a {
@@ -356,7 +358,6 @@ h4 {
 }
 
 .music-disc {
-    width: 50%;
     margin: 2rem auto;
     -webkit-box-shadow: -2px 2px 46px 0px rgba(0, 0, 0, 0.28);
     -moz-box-shadow: -2px 2px 46px 0px rgba(0, 0, 0, 0.28);
@@ -581,34 +582,7 @@ h4 {
 
 /** FOOTER **/
 
-.footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 2rem;
-    background-color: rgba(0, 0, 0, 0.514);
-    width: 100%;
-    height: auto;
-    color: white;
-    margin-top: 3rem;
-}
-
-.info-footer {
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.info-footer span,
-p,
-h5,
-a {
-    font-size: 1.3rem;
-    padding: 0;
-    font-family: var(--fontNav);
-}
-
-.info-footer a {
-    text-decoration: none;
-    margin-left: 1rem;
-    color: white;
+.footer{
+    min-height: 40vh;
+    background-color: rgba(0, 0, 0, 0.335);
 }

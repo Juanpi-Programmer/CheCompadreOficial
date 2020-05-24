@@ -28,5 +28,8 @@
     include_once 'include/templates/music.php';
     include_once 'include/templates/picture.php';
     include_once 'include/templates/videos.php';
-    include_once 'include/templates/contact.php';
+?>
+    <section class="contacto" id="contac"></section>
+<?php 
     include_once 'include/templates/footer.php';
+?>
