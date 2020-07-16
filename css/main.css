@@ -44,9 +44,9 @@ img {
 }
 
 body {
-    /* background-image: url(../img/fondoFuerte.jpg); */
-    background-size: cover;
+    background-image: url(../img/fondoFuerte.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     transition: all .9s ease-in-out;
 }
 
@@ -66,26 +66,33 @@ h2 {
     font-family: var(--fontTitle);
     text-align: center;
 }
-
-h4 {
+h4, .integrantName {
     width: 100%;
-    color: white;
     padding: .5rem;
     font-size: 1.5rem;
     font-family: var(--fontTitle);
     text-align: left;
+    color: black;
 }
-
+h5{
+    font-family: var(--fontTitle);
+}
+.integrantName span{
+    color: rgb(250, 186, 67);
+}
 @media (min-width: 768px) {
     h2 {
         width: 45%;
         background-color: #fdff71;
         text-align: left;
     }
-
     h4 {
         font-size: 1.9rem;
         text-align: center;
+    }
+    .integrantName{
+        color: black!important;
+        font-size: 2rem;
     }
 }
 
@@ -272,9 +279,16 @@ h4 {
     padding: 2rem;
 }
 
-.datosMusicos {
+
+.datosMusicos{
+    display: block;
     text-align: center;
     color: black;
+}
+@media (min-width: 768px) {
+    .datosMusicos {
+        display: flex;
+    }
 }
 
 .datosMusicos h5 {
@@ -324,7 +338,7 @@ h4 {
 
 .bio {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.3em;
     width: 100%;
     font-weight: 400;
     line-height: 2;
@@ -581,8 +595,64 @@ h4 {
 
 
 /** FOOTER **/
-
 .footer{
     min-height: 40vh;
     background-color: rgba(0, 0, 0, 0.335);
+    font-family: var(--fontTitle)!important;
+    text-align: center;
+}
+.footer h4{
+    font-size: 1rem;
+}
+.footer h3{
+    font-size: 2rem;
+    color: white;
+}
+@media (min-width: 768px) {
+    .footer h4{
+        font-size: 3rem;
+    }
+    .footer h3{
+        font-size: 4rem;
+    }
+}
+.contFooter{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgba(255, 166, 0, 0.397);
+}
+.contFooter a {
+    text-decoration: none;
+}
+.infoCreador{
+    color: white;
+    font-size: 2rem;
+    font-family: var(--fontNav);
+    font-weight: bold;
+    background-color: black;
+    padding: 1rem;
+}
+.infoCreador p a{
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease-in-out;
+}
+.infoCreador p a:hover{
+    color: rgb(206, 206, 206);
+}
+.socialRedes{
+    display: none;
+}
+.powrMark {
+    display: none!important;
+}
+@media (min-width: 768px) {
+    .socialRedes{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .fb-page{
+        width: 30rem;
+    }
 }

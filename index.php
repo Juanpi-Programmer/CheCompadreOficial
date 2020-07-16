@@ -8,12 +8,13 @@
         <img src="img/integrantes.jpg" alt="integrantes">
     </div>
     <div class="datosMusicos">
-        <h5>Mauro Mansilla <span>(Voz/Bajo)</span></h5>
-        <h5>Franco (Tigre) Herrera <span>(Guitarra Eléctrica)</span></h5>
-        <h5>Leonardo (Lenny) Ibacache <span>(Guitarra Eléctrica)</span></h5>
-        <h5>German Ibacache <span>(Bateria/Voz)</span></h5>
-        <h5>Lucas Fernández <span>(Percusión/Vientos/Voz)</span></h5>
-        <h5>Coqui Gonzales <span>(Trombon)</span></h5>
+        <h4 class="integrantName">Mauro Mansilla <span>(Voz/Bajo)</span></h4>
+        <h4 class="integrantName">Franco (Tigre) Herrera <span>(Guitarra Eléctrica)</span></h4>
+        <h4 class="integrantName">Leonardo (Lenny) Ibacache <span>(Guitarra Eléctrica)</span></h4>
+        <h4 class="integrantName">German Ibacache <span>(Bateria/Voz)</span></h4>
+        <h4 class="integrantName">Lucas Fernández <span>(Percusión/Vientos/Voz)</span></h4>
+        <h4 class="integrantName">Coqui Gonzales <span>(Trombon)</span></h4>
+        <h4 class="integrantName">Nehuen Rodríguez <span>(Saxo)</span></h4>
     </div>
     <div class="title">
         <h2>INTEGRANTES</h2>

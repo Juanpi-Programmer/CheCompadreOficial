@@ -20,6 +20,7 @@ function eventListener() {
     const cerrar_fuert = document.querySelector('#exDiscFuerte').addEventListener('click', cerrarDiscosFuerteImpacto);
     
     const cult_presente = document.querySelector('.cult_present').addEventListener('click', cambiarFondo);
+    const fuert_impact = document.querySelector('.fuert_impact').addEventListener('click', cambiarFondoFuerte);
 
 
     animacionWOW();
@@ -43,23 +44,27 @@ function quitarBoton(e) {
 }
 
 //Reproducir
-function reproducirCult() {
+function reproducirCult(e) {
+    e.preventDefault();
     $('#reprodCulturaPresente').hide();
     $('.culturaPresente').fadeIn();
     $('#exDisc').show();
 }
-function reproducirFuerteImpacto() {
+function reproducirFuerteImpacto(e) {
+    e.preventDefault();
     $('#reprodFuerteImpacto').hide();
     $('.fuerteImpacto').fadeIn();
     $('#exDiscFuerte').show();
 }
 //Cerrar discos
-function cerrarDiscos() {
+function cerrarDiscos(e) {
+    e.preventDefault();
     $('#reprodCulturaPresente').show();
     $('.culturaPresente').fadeOut();
     $('#exDisc').hide();
 }
-function cerrarDiscosFuerteImpacto() {
+function cerrarDiscosFuerteImpacto(e) {
+    e.preventDefault();
     $('#reprodFuerteImpacto').show();
     $('.fuerteImpacto').fadeOut();
     $('#exDiscFuerte').hide();
@@ -98,9 +103,16 @@ function scrollNav() {
 }
 
 //Cambiar Fondo
-function cambiarFondo() {
-    $('#body-class').css({
-        "background-color": 'rgb(238, 255, 83)'
+function cambiarFondo(e) {
+    e.preventDefault();
+    $('body').css({
+        'background-image': 'url(./img/fondoCultura.jpg)'
     });
 }
 
+function cambiarFondoFuerte(e) {
+    e.preventDefault();
+    $('body').css({
+        'background-image': 'url(./img/fondoFuerte.jpg)'
+    });
+}

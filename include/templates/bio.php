@@ -4,25 +4,18 @@
     <div class="text-bio">
         <div class="bio wow animated slideInDown">
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Modi delectus harum ipsum ratione veniam aut iusto officia 
-                ad architecto perferendis, voluptatum nisi minima, 
-                consequatur reiciendis id mollitia eaque, voluptatibus 
-                illo.
+                Che compadre es una banda que se forma en el departamento de Lavalle,
+                provincia de Mendoza en el año 2013. La cual mezcla géneros como cumbia,
+                reggae, ska (fusión latina); y a través de su esencia enérgica y explosiva
+                busca trasmitir alegría, sus raíces y conciencia social. 
             </p>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Modi delectus harum ipsum ratione veniam aut iusto officia 
-                ad architecto perferendis, voluptatum nisi minima, 
-                consequatur reiciendis id mollitia eaque, voluptatibus 
-                illo.
+                Forman parte de la escena local de Mza, compartiendo escenario con bandas como:
+                Los Caligaris, La Mancha de Rolando,Kapanga, Los Tipitos, La Barra, Zona Ganjah,
+                Nuestra Raza (ex callejeros) y La Skandaloza Tripulación, entre otros más. 
             </p>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Modi delectus harum ipsum ratione veniam aut iusto officia 
-                ad architecto perferendis, voluptatum nisi minima, 
-                consequatur reiciendis id mollitia eaque, voluptatibus 
-                illo.
+                En 2016 grabaron un ep titulado "Cultura Presente" y actualmente acaban de lanzar su disco "Fuerte Impacto" (marzo 2020).
             </p>
         </div>
     </div>
@@ -30,3 +23,4 @@
         <h2>BIOGRAFIA</h2>
     </div>
 </section>
+

@@ -2,7 +2,7 @@
     <div class="disc-flex" id="mus">
         <div class="music-disc" id="fuerte_impacto">
             <div class="img-d">
-               <a href="#music-disc" class="img-discos"><img src="img/fuerteImpacto.jpg" alt="DIsc"></a>                
+               <a href="#music-disc" class="img-discos fuert_impact"><img src="img/fuerteImpacto.jpg" alt="DIsc"></a>                
             </div>
             <h3><span>Fuerte Impacto</span> 2020</h3>
             <div class="reproduccion">
@@ -13,7 +13,7 @@
         </div>
         <div class="music-disc" id="cultura_presente">
             <div class="img-d">
-               <img class="cult_present" src="img/cultura_presente.jpg" alt="DIsc">               
+               <a href="#music-disc-Cultura" class="cult_present"><img src="img/cultura_presente.jpg" alt="DIsc"></a>               
             </div>
             <h3><span>Cultura Presente</span> 2017</h3>
             <div class="reproduccion">
@@ -25,10 +25,10 @@
     </div>
     <div class="reproducIframe">
         <iframe class="culturaPresente" src="https://open.spotify.com/embed/artist/4ck2apvTEfQ4ps1vKHCLBH" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        <iframe class="fuerteImpacto" src="https://open.spotify.com/embed/album/1jl2HrFMExVTQLZTCm4WFd" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="fuerteImpacto" src="https://open.spotify.com/embed/album/7kj5DmWANSbLOT7dgTx9dz" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
     <div class="redes-disco">
-        <h5>Escuchanos!</h5>
+        <h5>Escuchanos!</h4>
         <div class="plataformas">
             <img id="soundCloud" src="https://topplaylists.es/wp-content/uploads/2019/01/Captura-de-pantalla-2019-01-30-a-las-12.50.47.png" alt="SoundCloud">
             <img id="youtube" src="https://www.internetmatters.org/wp-content/uploads/2020/01/youtube.png" alt="Youtube">
