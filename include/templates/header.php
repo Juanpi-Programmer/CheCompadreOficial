@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Che compadre es una banda que se forma en el departamento de Lavalle,
+                provincia de Mendoza en el año 2013. La cual mezcla géneros como cumbia,
+                reggae, ska (fusión latina); y a través de su esencia enérgica y explosiva
+                busca trasmitir alegría, sus raíces y conciencia social. ">
     <link rel="icon" href="img/iconChe.jpg" type="image/jpg">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/5db1674db6.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172880114-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-172880114-1');
+    </script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/normalize.css">

@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="reproducIframe">
-        <iframe class="culturaPresente" src="https://open.spotify.com/embed/artist/4ck2apvTEfQ4ps1vKHCLBH" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe class="culturaPresente"  src="https://open.spotify.com/embed/album/4W3CaXtQkg4kB5YEZaXjYQ" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         <iframe class="fuerteImpacto" src="https://open.spotify.com/embed/album/7kj5DmWANSbLOT7dgTx9dz" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
     <div class="redes-disco">

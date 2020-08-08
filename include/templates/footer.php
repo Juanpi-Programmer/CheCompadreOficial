@@ -3,7 +3,6 @@
             <div class="contFooter">
                 <h3>Contact</h3>
                 <a href="mailto:checompadre@gmail.com" target="_blank"><h4 class="wow animated swing"><h3>checompadrelavalle@gmail.com</h3></a>
-                <h3>+54 9 2616 82-8370</h3>
             </div>
         </div>
         <div class="socialRedes">

@@ -13,8 +13,9 @@
         <h4 class="integrantName">Leonardo (Lenny) Ibacache <span>(Guitarra Eléctrica)</span></h4>
         <h4 class="integrantName">German Ibacache <span>(Bateria/Voz)</span></h4>
         <h4 class="integrantName">Lucas Fernández <span>(Percusión/Vientos/Voz)</span></h4>
-        <h4 class="integrantName">Coqui Gonzales <span>(Trombon)</span></h4>
+        <h4 class="integrantName">Adrián González <span>(Trombón)</span></h4>
         <h4 class="integrantName">Nehuen Rodríguez <span>(Saxo)</span></h4>
+        <h4 class="integrantName">Agustin Yañez <span>(Saxo Alto)</span></h4>
     </div>
     <div class="title">
         <h2>INTEGRANTES</h2>

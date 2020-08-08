@@ -15,7 +15,7 @@
                 Nuestra Raza (ex callejeros) y La Skandaloza Tripulación, entre otros más. 
             </p>
             <p>
-                En 2016 grabaron un ep titulado "Cultura Presente" y actualmente acaban de lanzar su disco "Fuerte Impacto" (marzo 2020).
+                En 2017 grabaron un ep titulado "Cultura Presente" y actualmente acaban de lanzar su disco "Fuerte Impacto" (marzo 2020).
             </p>
         </div>
     </div>
